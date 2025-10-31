@@ -12,7 +12,8 @@ pipeline{
 
         stage('Extract Data'){
             steps{
-                bat "python extract.py"
+                bat "C:\\Users\\adity\\AppData\\Local\\Programs\\Python\\Python312\\python.exe
+ extract.py"
 
             }
         }
